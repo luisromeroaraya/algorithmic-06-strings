@@ -52,6 +52,7 @@ position('hello world','w') // returns 6
 
 ## Exercises
 
+*I will be using [Python3](https://repl.it/languages/python3) to write and test the algorithms*
 
 Instructions
 * write your algorithm on paper
