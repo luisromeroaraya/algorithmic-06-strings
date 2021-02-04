@@ -107,7 +107,19 @@ inputName()
 ```
 
 V - whitespace
-- [ ] Write a function which receives a sentence full of whitespace and returns it without them.
+- [x] Write a function which receives a sentence full of whitespace and returns it without them.
+```
+def noSpace():
+    string=str(input("Please enter a sentence:"))
+    newString=""
+    space=" "
+    for i in range(len(string)):
+        if string[i] != space:
+            newString=newString+string[i]
+    print(newString)
+
+noSpace()
+```
 
 ## Resources
 * [conventions](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/7.Algorithmic/conventions.adoc)
