@@ -96,6 +96,15 @@ upperStr()
 IV - convert name
 - [ ] Write a function which receives a name in this format "Doe, John" an returns it in this format "John Doe"
 
+```
+def inputName():
+    string=str(input("Please enter your name in this format => Last name, Name:"))
+    separator=string.index(",")
+    print(string[separator+1:],string[0:separator])
+
+inputName()
+```
+
 V - whitespace
 - [ ] Write a function which receives a sentence full of whitespace and returns it without them.
 
