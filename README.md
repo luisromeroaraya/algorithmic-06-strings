@@ -51,19 +51,47 @@ position('hello world','w') // returns 6
 ```
 
 ## Exercises
+
+
 Instructions
 * write your algorithm on paper
 * detail each and every step
 * indicates the types of used variables
 
 I - concatenation
-- [ ] Write a function which receives two strings and returns them as one string.
+- [x] Write a function which receives two strings and returns them as one string.
+
+```
+def addStr():
+    string1=str(input("Please enter first string:"))
+    string2=str(input("Please enter second string:"))
+    return(string1+string2)
+
+string=addStr()
+print(string)
+```
 
 II - lowercase
 - [ ] Write a function which receives a character in uppercase and prints it in lowercase.
 
+```
+def lowerStr():
+    string=str(input("Please enter a string in uppercase:"))
+    print(string.lower())
+    
+lowerStr()
+```
+
 III - uppercase
-- [ ] Write a function which receives a string in lowercase and returns an uppercase sentence.
+- [x] Write a function which receives a string in lowercase and returns an uppercase sentence.
+
+```
+def upperStr():
+    string=str(input("Please enter a string in lowercase:"))
+    print(string.upper())
+
+upperStr()
+```
 
 IV - convert name
 - [ ] Write a function which receives a name in this format "Doe, John" an returns it in this format "John Doe"
