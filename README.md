@@ -1,4 +1,4 @@
-# Strings
+# [Strings](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/7.Algorithmic/06-strings.adoc)
 * Type of challenge: **learning**
 * Duration: **60 min**
 * Team challenge: **solo**
@@ -61,7 +61,6 @@ Instructions
 
 I - concatenation
 - [x] Write a function which receives two strings and returns them as one string.
-
 ```
 def addStr():
     string1=str(input("Please enter first string:"))
@@ -73,8 +72,7 @@ print(string)
 ```
 
 II - lowercase
-- [ ] Write a function which receives a character in uppercase and prints it in lowercase.
-
+- [x] Write a function which receives a character in uppercase and prints it in lowercase.
 ```
 def lowerStr():
     string=str(input("Please enter a string in uppercase:"))
@@ -85,7 +83,6 @@ lowerStr()
 
 III - uppercase
 - [x] Write a function which receives a string in lowercase and returns an uppercase sentence.
-
 ```
 def upperStr():
     string=str(input("Please enter a string in lowercase:"))
@@ -95,8 +92,7 @@ upperStr()
 ```
 
 IV - convert name
-- [ ] Write a function which receives a name in this format "Doe, John" an returns it in this format "John Doe"
-
+- [x] Write a function which receives a name in this format "Doe, John" an returns it in this format "John Doe"
 ```
 def inputName():
     string=str(input("Please enter your name in this format => Last name, Name:"))
